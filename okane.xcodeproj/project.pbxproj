@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146098032E54867900C3A595 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 146098022E54866F00C3A595 /* .gitignore */; };
+		146098052E54869A00C3A595 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 146098042E54869100C3A595 /* README.MD */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		146097CF2E54822400C3A595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146097B62E54822400C3A595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 146097BD2E54822400C3A595;
+			remoteInfo = okane;
+		};
+		146097D92E54822400C3A595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146097B62E54822400C3A595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 146097BD2E54822400C3A595;
+			remoteInfo = okane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		146097BE2E54822400C3A595 /* okane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = okane.app; path = "/Users/sean/Developer/okane/build/Debug-iphoneos/okane.app"; sourceTree = "<absolute>"; };
+		146097CE2E54822400C3A595 /* okaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = okaneTests.xctest; path = "/Users/sean/Developer/okane/build/Debug-iphoneos/okane.app/PlugIns/okaneTests.xctest"; sourceTree = "<absolute>"; };
+		146097D82E54822400C3A595 /* okaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = okaneUITests.xctest; path = "/Users/sean/Developer/okane/build/Debug-iphoneos/okaneUITests-Runner.app/PlugIns/okaneUITests.xctest"; sourceTree = "<absolute>"; };
+		146098022E54866F00C3A595 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		146098042E54869100C3A595 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		146097F52E54833B00C3A595 /* Exceptions for "Tests" folder in "okane" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				okaneTests.swift,
+				"UI-Tests/okaneUITests.swift",
+				"UI-Tests/okaneUITestsLaunchTests.swift",
+			);
+			target = 146097BD2E54822400C3A595 /* okane */;
+		};
+		146097F62E54833B00C3A595 /* Exceptions for "Tests" folder in "okaneTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				okaneTests.swift,
+			);
+			target = 146097CD2E54822400C3A595 /* okaneTests */;
+		};
+		146097F72E54834000C3A595 /* Exceptions for "Tests" folder in "okaneUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"UI-Tests/okaneUITests.swift",
+				"UI-Tests/okaneUITestsLaunchTests.swift",
+			);
+			target = 146097D72E54822400C3A595 /* okaneUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		146097EB2E54825C00C3A595 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		146097EC2E54826B00C3A595 /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		146097ED2E54826F00C3A595 /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		146097EE2E54827400C3A595 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		146097EF2E54827D00C3A595 /* Configs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		146097F02E54828700C3A595 /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				146097F52E54833B00C3A595 /* Exceptions for "Tests" folder in "okane" target */,
+				146097F62E54833B00C3A595 /* Exceptions for "Tests" folder in "okaneTests" target */,
+				146097F72E54834000C3A595 /* Exceptions for "Tests" folder in "okaneUITests" target */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		146097F12E54829200C3A595 /* Docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		146097FC2E54860F00C3A595 /* .github */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = .github;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146097BB2E54822400C3A595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146097CB2E54822400C3A595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146097D52E54822400C3A595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146097B52E54822400C3A595 = {
+			isa = PBXGroup;
+			children = (
+				146098042E54869100C3A595 /* README.MD */,
+				146098022E54866F00C3A595 /* .gitignore */,
+				146097FC2E54860F00C3A595 /* .github */,
+				146097F12E54829200C3A595 /* Docs */,
+				146097F02E54828700C3A595 /* Tests */,
+				146097EF2E54827D00C3A595 /* Configs */,
+				146097EE2E54827400C3A595 /* Resources */,
+				146097ED2E54826F00C3A595 /* Features */,
+				146097EC2E54826B00C3A595 /* Core */,
+				146097EB2E54825C00C3A595 /* App */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146097BD2E54822400C3A595 /* okane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146097E22E54822400C3A595 /* Build configuration list for PBXNativeTarget "okane" */;
+			buildPhases = (
+				146097BA2E54822400C3A595 /* Sources */,
+				146097BB2E54822400C3A595 /* Frameworks */,
+				146097BC2E54822400C3A595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				146097EB2E54825C00C3A595 /* App */,
+				146097EC2E54826B00C3A595 /* Core */,
+				146097ED2E54826F00C3A595 /* Features */,
+				146097EE2E54827400C3A595 /* Resources */,
+				146097EF2E54827D00C3A595 /* Configs */,
+				146097F02E54828700C3A595 /* Tests */,
+				146097F12E54829200C3A595 /* Docs */,
+				146097FC2E54860F00C3A595 /* .github */,
+			);
+			name = okane;
+			packageProductDependencies = (
+			);
+			productName = okane;
+			productReference = 146097BE2E54822400C3A595 /* okane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		146097CD2E54822400C3A595 /* okaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146097E52E54822400C3A595 /* Build configuration list for PBXNativeTarget "okaneTests" */;
+			buildPhases = (
+				146097CA2E54822400C3A595 /* Sources */,
+				146097CB2E54822400C3A595 /* Frameworks */,
+				146097CC2E54822400C3A595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				146097D02E54822400C3A595 /* PBXTargetDependency */,
+			);
+			name = okaneTests;
+			packageProductDependencies = (
+			);
+			productName = okaneTests;
+			productReference = 146097CE2E54822400C3A595 /* okaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		146097D72E54822400C3A595 /* okaneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146097E82E54822400C3A595 /* Build configuration list for PBXNativeTarget "okaneUITests" */;
+			buildPhases = (
+				146097D42E54822400C3A595 /* Sources */,
+				146097D52E54822400C3A595 /* Frameworks */,
+				146097D62E54822400C3A595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				146097DA2E54822400C3A595 /* PBXTargetDependency */,
+			);
+			name = okaneUITests;
+			packageProductDependencies = (
+			);
+			productName = okaneUITests;
+			productReference = 146097D82E54822400C3A595 /* okaneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146097B62E54822400C3A595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					146097BD2E54822400C3A595 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					146097CD2E54822400C3A595 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 146097BD2E54822400C3A595;
+					};
+					146097D72E54822400C3A595 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 146097BD2E54822400C3A595;
+					};
+				};
+			};
+			buildConfigurationList = 146097B92E54822400C3A595 /* Build configuration list for PBXProject "okane" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146097B52E54822400C3A595;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 146097B52E54822400C3A595;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146097BD2E54822400C3A595 /* okane */,
+				146097CD2E54822400C3A595 /* okaneTests */,
+				146097D72E54822400C3A595 /* okaneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146097BC2E54822400C3A595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146098052E54869A00C3A595 /* README.MD in Resources */,
+				146098032E54867900C3A595 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146097CC2E54822400C3A595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146097D62E54822400C3A595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146097BA2E54822400C3A595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146097CA2E54822400C3A595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146097D42E54822400C3A595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		146097D02E54822400C3A595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 146097BD2E54822400C3A595 /* okane */;
+			targetProxy = 146097CF2E54822400C3A595 /* PBXContainerItemProxy */;
+		};
+		146097DA2E54822400C3A595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 146097BD2E54822400C3A595 /* okane */;
+			targetProxy = 146097D92E54822400C3A595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		146097E02E54822400C3A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		146097E12E54822400C3A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		146097E32E54822400C3A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "finn-th.okane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		146097E42E54822400C3A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "finn-th.okane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		146097E62E54822400C3A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "finn-th.okaneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/okane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/okane";
+			};
+			name = Debug;
+		};
+		146097E72E54822400C3A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "finn-th.okaneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/okane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/okane";
+			};
+			name = Release;
+		};
+		146097E92E54822400C3A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "finn-th.okaneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = okane;
+			};
+			name = Debug;
+		};
+		146097EA2E54822400C3A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "finn-th.okaneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = okane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146097B92E54822400C3A595 /* Build configuration list for PBXProject "okane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146097E02E54822400C3A595 /* Debug */,
+				146097E12E54822400C3A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146097E22E54822400C3A595 /* Build configuration list for PBXNativeTarget "okane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146097E32E54822400C3A595 /* Debug */,
+				146097E42E54822400C3A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146097E52E54822400C3A595 /* Build configuration list for PBXNativeTarget "okaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146097E62E54822400C3A595 /* Debug */,
+				146097E72E54822400C3A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146097E82E54822400C3A595 /* Build configuration list for PBXNativeTarget "okaneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146097E92E54822400C3A595 /* Debug */,
+				146097EA2E54822400C3A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 146097B62E54822400C3A595 /* Project object */;
+}
