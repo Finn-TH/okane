@@ -17,18 +17,7 @@ Okane is an iOS app that turns receipt photos into structured expenses with mini
     iOS: 17+
     Frameworks: Vision, VisionKit, PhotosUI, CoreData, Charts
 
-📂 Project Structure
 
-Okane/
-├─ App/                 # App entry & lifecycle
-├─ Features/            # Feature-first (ReceiptCapture, Expenses, Dashboard)
-├─ Core/                # Models, utilities, extensions
-├─ Services/            # OCRService, StorageService, etc.
-├─ Data/                # Core Data stack & repositories
-├─ Resources/           # Assets.xcassets, Info.plist, localizations
-├─ Tests/ & UITests/    # Unit & UI test targets
-├─ docs/                # Documentation (plan.md, ADRs, etc.)
-└─ .github/             # Workflows, issue templates, copilot-instructions.md
 
 🤝 Contributing
 
