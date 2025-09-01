@@ -29,11 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		146097BE2E54822400C3A595 /* okane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = okane.app; path = "/Users/sean/Developer/okane/build/Debug-iphoneos/okane.app"; sourceTree = "<absolute>"; };
-		146097CE2E54822400C3A595 /* okaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = okaneTests.xctest; path = "/Users/sean/Developer/okane/build/Debug-iphoneos/okane.app/PlugIns/okaneTests.xctest"; sourceTree = "<absolute>"; };
-		146097D82E54822400C3A595 /* okaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = okaneUITests.xctest; path = "/Users/sean/Developer/okane/build/Debug-iphoneos/okaneUITests-Runner.app/PlugIns/okaneUITests.xctest"; sourceTree = "<absolute>"; };
 		146098022E54866F00C3A595 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		146098042E54869100C3A595 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		14FC01562E6579A900FE0CD1 /* okane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FC01572E6579A900FE0CD1 /* okaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FC01582E6579A900FE0CD1 /* okaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -149,6 +149,9 @@
 				146097ED2E54826F00C3A595 /* Features */,
 				146097EC2E54826B00C3A595 /* Core */,
 				146097EB2E54825C00C3A595 /* App */,
+				14FC01562E6579A900FE0CD1 /* okane.app */,
+				14FC01572E6579A900FE0CD1 /* okaneTests.xctest */,
+				14FC01582E6579A900FE0CD1 /* okaneUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,7 +184,7 @@
 			packageProductDependencies = (
 			);
 			productName = okane;
-			productReference = 146097BE2E54822400C3A595 /* okane.app */;
+			productReference = 14FC01562E6579A900FE0CD1 /* okane.app */;
 			productType = "com.apple.product-type.application";
 		};
 		146097CD2E54822400C3A595 /* okaneTests */ = {
@@ -201,7 +204,7 @@
 			packageProductDependencies = (
 			);
 			productName = okaneTests;
-			productReference = 146097CE2E54822400C3A595 /* okaneTests.xctest */;
+			productReference = 14FC01572E6579A900FE0CD1 /* okaneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		146097D72E54822400C3A595 /* okaneUITests */ = {
@@ -221,7 +224,7 @@
 			packageProductDependencies = (
 			);
 			productName = okaneUITests;
-			productReference = 146097D82E54822400C3A595 /* okaneUITests.xctest */;
+			productReference = 14FC01582E6579A900FE0CD1 /* okaneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
